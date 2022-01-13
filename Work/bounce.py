@@ -7,4 +7,4 @@ nBounces = 10
 
 for iB in range(nBounces):
     height = height*reboundRate
-    print(height)
+    print(round(height, 4))
